@@ -31,6 +31,9 @@ CronJobs may be used in some of the possible following cases:
 
 ![img.png](img.png)
 
+🔗 Spring scheduling docs: https://docs.spring.io/spring-framewo...
+🔗 Crontab Guru: https://crontab.guru/
+
 - Take a look at the methods: they must be returning void and must not accept any arguments.
 
 - Look at the final job method: It escentially creates a job to be executed every day at 12pm. It uses the format of a CronJob.
